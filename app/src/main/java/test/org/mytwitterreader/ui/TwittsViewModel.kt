@@ -20,6 +20,7 @@ class TwittsViewModel constructor(private val dataSourceFactory: TwitterDataSour
                 .build()
 
 
+
         livePagedListOfNames = LivePagedListBuilder(dataSourceFactory, pagedListConfig)
                 .build()
     }
